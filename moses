@@ -19,11 +19,11 @@ tone(output,B4);
 delay(AB);
 noTone(output);
 
-tone(output,C#5);
+tone(output,CS5);
 delay(JB);
 noTone(output);
 
-tone(output,G#5);
+tone(output,GS5);
 delay(AB);
 noTone(output);
 
@@ -35,7 +35,7 @@ tone(output,E5);
 delay(AB);
 noTone(output);
 
-tone(output,G#5);
+tone(output,GS5);
 delay(AB);
 noTone(output);
 
