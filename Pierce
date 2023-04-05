@@ -1,0 +1,106 @@
+int output = 13;
+int Z4 = 440;
+int Z5 = 880;
+int B4 = 494;
+int C4 = 262;
+int C5 = 523;
+int CS5 = 554.4;
+int D4 = 294;
+int D5 = 587;
+int E4 = 330;
+int E5 = 659;
+int G4 = 392;
+int G5 = 784;
+int GS5 = 830.6;
+
+
+int tempo = 102;
+
+int HB = tempo * (147/50);
+int JB = tempo * (441/50);
+int AB = tempo * (147/25);
+int BB = tempo * 18;
+int CB = tempo * (88/5);
+
+void setup()
+{
+    // 
+    // 
+  tone(output,GS5); //1
+  delay(AB);
+  noTone(output);
+
+  tone(output,Z5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,E5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,GS5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,Z5); //5
+  delay(AB);
+  noTone(output);
+
+  tone(output,Z4); //
+  delay(JB);
+  noTone(output);
+
+  tone(output,Z5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,GS5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,E5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,Z5); //10
+  delay(AB);
+  noTone(output);
+
+  tone(output,GS5); //11
+  delay(AB);
+  noTone(output);
+
+  tone(output,CS5); //12
+  delay(JB);
+  noTone(output);
+
+  tone(output,Z5); //13
+  delay(AB);
+  noTone(output);
+  
+  tone(output,GS5); //14
+  delay(AB);
+  noTone(output);
+
+  tone(output,E5); //15
+  delay(AB);
+  noTone(output);
+
+  tone(output,Z5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,GS5); //
+  delay(AB);
+  noTone(output);
+
+  tone(output,Z4); //
+  delay(JB);
+  noTone(output); // stop playing
+}
+
+ 
+void loop()
+{
+
+}
