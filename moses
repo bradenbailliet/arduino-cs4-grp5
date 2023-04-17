@@ -1,76 +1,99 @@
+int output = 13;
+int Z4 = 440;
+int Z5 = 880;
+int B4 = 494;
+int C4 = 262;
+int C5 = 523;
+int CS5 = 554.4;
+int D4 = 294;
+int D5 = 587;
+int E4 = 330;
+int E5 = 659;
+int G4 = 392;
+int G5 = 784;
+int GS5 = 830.6;
+
+
+int tempo = 102;
+
+int QN = tempo * (60000/102);
+int HN = tempo * (60000/51);
+int AB = tempo * (147/25);
+int BB = tempo * 18;
+int CB = tempo * (88/5);
 
 tone(output,A4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,B4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,E4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,A4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,B4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,CS5);
-delay(JB);
+delay(HN);
 noTone(output);
 
 tone(output,GS5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,A5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,E5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,GS5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,A5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,E5);
-delay(JB);
+delay(HN);
 noTone(output);
 
 tone(output,C5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,B4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,G4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,C5);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,B4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,E4);
-delay(AB);
+delay(QN);
 noTone(output);
 
 tone(output,A4);
-delay(AB);
+delay(QN);
 noTone(output);
