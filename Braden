@@ -10,6 +10,9 @@ int D4 = 294;
 int C4 = 262;
 int E4 = 330;
 int E5 = 659;
+int GS4 = 415;
+int CS4 = 277;
+int A3 = 220;
 
 int tempo = 102;
 
@@ -21,6 +24,76 @@ int CB = tempo * (88/5);
 
 void setup() {
   // put your setup code here, to run once:
+tone(output,B4);
+delay(AB);
+noTone(output);
 
+tone(output,A4);
+delay(AB);
+noTone(output);
+
+tone(output,E4);
+delay(AB);
+noTone(output);
+
+tone(output,B4);
+delay(AB);
+noTone(output);
+
+tone(output,A4);
+delay(AB);
+noTone(output);
+
+tone(output,GS4);
+delay(JB);
+noTone(output);
+
+tone(output,B4);
+delay(AB);
+noTone(output);
+
+tone(output,A4);
+delay(AB);
+noTone(output);
+
+tone(output,E4);
+delay(AB):;
+noTone(output);
+
+tone(output,D4);
+delay(AB);
+noTone(output);
+
+tone(output,CS4);
+delay(AB);
+noTone(output);
+
+tone(output,A3)
+delay(JB);
+noTone(output);
+
+tone(output,B4);
+delay(AB);
+noTone(output);
+
+tone(output,A4);
+delay(AB)
+noTone(output);
+
+tone(output,CS4);
+delay(AB);
+noTone(output);
+
+tone(output,B4);
+delay(AB);
+noTone(output);
+
+tone(output,A4);
+delay(AB);
+noTone(output);
+
+tone(output,E4);
+delay(JB);
+noTone(output);
 
 }
