@@ -1,1 +1,26 @@
+int output = 13;
+int B4 = 494;
+int D5 = 587;
+int Z4 = 440;
+int G4 = 392;
+int Z5 = 880;
+int G5 = 784;
+int C5 = 523;
+int D4 = 294;
+int C4 = 262;
+int E4 = 330;
+int E5 = 659;
 
+int tempo = 102;
+
+int HB = tempo * (147/50);
+int JB = tempo * (441/50);
+int AB = tempo * (147/25);
+int BB = tempo * 18;
+int CB = tempo * (88/5);
+
+void setup() {
+  // put your setup code here, to run once:
+
+
+}
