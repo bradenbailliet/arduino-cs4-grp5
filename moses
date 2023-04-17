@@ -16,11 +16,11 @@ int GS5 = 830.6;
 
 int tempo = 102;
 
-int QN = tempo * (60000);
-int HN = tempo * (120000);
-int EN = tempo * (30000);
-int WN = tempo * (240000);
-int SN = tempo * (15000);
+int QN = (60000)/tempo;
+int HN = (120000)/tempo;
+int EN = (30000)/tempo;
+int WN = (240000)/tempo;
+int SN = (15000)/tempo;
 
 tone(output,A4);
 delay(QN);
