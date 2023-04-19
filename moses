@@ -22,6 +22,9 @@ int EN = (30000)/tempo;
 int WN = (240000)/tempo;
 int SN = (15000)/tempo;
 
+pinMode(Pin1, OUTPUT);
+pinMOde(Pin2, OUTPUT);
+
 tone(output,A4);
 delay(QN);
 noTone(output);
