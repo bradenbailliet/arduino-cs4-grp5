@@ -26,27 +26,39 @@ pinMode(Pin1, OUTPUT);
 pinMOde(Pin2, OUTPUT);
 
 tone(output,A4);
+  digitalWrite(Pin1, HIGH);
 delay(QN);
+  digitalWrite(Pin1, LOW);
 noTone(output);
 
 tone(output,B4);
+  digitalWrite(Pin2, HIGH)
 delay(QN);
+  digitalWrite(Pin2, LOW);
 noTone(output);
 
 tone(output,E4);
+  digitalWrite(Pin1, HIGH);
 delay(QN);
+  digitalWrite(Pin1, LOW);
 noTone(output);
 
 tone(output,A4);
+  digitalWrite(Pin2, HIGH);
 delay(QN);
+  digitalWrite(Pin2, LOW);
 noTone(output);
 
 tone(output,B4);
+  digitalWrite(Pin1, HIGH);
 delay(QN);
+  digitalWrite(Pin1, LOW);
 noTone(output);
 
 tone(output,CS5);
+  digitalWrite(Pin2, HIGH);
 delay(HN);
+  digitalWrite(Pin2, LOW);
 noTone(output);
 
 tone(output,GS5);
