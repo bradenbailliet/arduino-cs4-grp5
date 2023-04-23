@@ -16,7 +16,8 @@ Notes chart:
 8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
 */
 
-
+int Pin1 = 12;
+int Pin2 = 11;
 int output = 13;
 int Z3 = 110;
 int Z4 = 440;
@@ -43,14 +44,13 @@ int AB = tempo * (147/25);
 int BB = tempo * 18;
 int CB = tempo * (88/5);
 
-void setup()
-{
+void setup() {
     // 
     // 
 
-  pinMode(Pin1, OUTPUT);
-  pinMOde(Pin2, OUTPUT);
   
+  pinMode(Pin1, OUTPUT);
+  pinMode(Pin2, OUTPUT);
   
   tone(output,C5);
   digitalWrite(Pin1, HIGH); //1
@@ -590,7 +590,7 @@ delay(AB);
 noTone(output);
 
 tone(output,B4);
-  digitalWrite(Pin2, HIGH)
+  digitalWrite(Pin2, HIGH);
 delay(AB);
   digitalWrite(Pin2, LOW);
 noTone(output);
@@ -700,7 +700,6 @@ noTone(output);
 }
 
  
-void loop()
-{
+void loop() {
 
 }
